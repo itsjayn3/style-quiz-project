@@ -1,0 +1,64 @@
+.quizScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #ff80e5;
+  color: #ffffff;
+  text-align: center;
+    background-image: url('https://www.transparenttextures.com/patterns/noisy-grid.png');
+}
+
+@keyframes blink {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+.questionText {
+  font-family: "Bungee Shade", sans-serif;
+  font-size: 2.5rem; 
+  letter-spacing: 2px; 
+  margin-bottom: 40px;
+  color: rgb(4, 6, 138);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.progressBarContainer {
+  width: 80%;
+  max-width: 500px;
+  height: 11px;
+  background-color: #333;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+
+}
+
+.progressBar {
+  height: 100%;
+  background: linear-gradient(90deg, hotpink, blueviolet);
+  border-radius: 10px;
+  transition: width 0.3s ease-in-out;
+  padding: 5px;
+}
