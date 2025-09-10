@@ -1,12 +1,57 @@
-# React + Vite
+# Style Quiz!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun, responsive, and interactive web app that gives users a personalised style persona based on their answers to a visually-driven quiz. Built completely from scratch with **React** and **Vite** as part of my learning journey.  
 
-Currently, two official plugins are available:
+**Live Demo:** [**jayne-style-quiz.netlify.app**](https://fashionquiz.netlify.app/)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot of the Style Quiz project](./public/QuizGIF.gif)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Motivation  
+
+I built this project to get hands-on with **React**. The goal wasn’t to create the most complex quiz in the world — it’s deliberately simple, playful, and light-hearted — but every feature was a chance for me to practice React concepts.  
+
+What surprised me most was how much I learnt outside my original plan: expanding my **CSS knowledge**, experimenting with **timers**, and playing around with **blinking/animation effects**. The MVP came together in about 4 days, and while there are features I’d still like to add (restart button, more visuals for results, or even a cute personality description to make results more immersive), I’m proud of how polished it feels as a first React project.  
+
+---
+
+## Features  
+
+- **Interactive Multi-Step Quiz:** 5 questions with a dynamic progress bar.  
+- **Dynamic Scoring:** Tracks choices and calculates a result across three style personas.  
+- **Animated Results Screen:** A reveal moment with CSS animations.  
+- **Polished UX:** Custom fonts, retro cursors, sound effects, and little touches to make it feel alive.  
+
+---
+
+## Tech Stack  
+
+- **Front-End:** React, JavaScript, HTML, CSS  
+- **Styling:** CSS Modules  
+- **Deployment:** Netlify  
+
+---
+
+## Lessons Learned  
+
+- Using **React props/state** to manage quiz logic and track progress.  
+- Building reusable components to structure the app.  
+- Applying scoped styles with **CSS Modules**.  
+- Timing animations and effects with CSS + JavaScript.  
+
+---
+
+## 🚀 Future Improvements  
+
+- Add a **restart button** at the end of the quiz.  
+- More diverse styles for the user to be matched to.
+- More visuals to represent each style persona.  
+- Quirky/cute result descriptions for extra personality.  
+- Accessibility improvements (keyboard navigation).  
+
+---
+
+---
+
+Made with ❤️ by [Jayne](https://www.linkedin.com/in/jayneekani/)
