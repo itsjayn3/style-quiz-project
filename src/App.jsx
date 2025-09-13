@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { QUIZ_QUESTIONS } from './questions.js';
 import QuizScreen from './components/QuizScreen.jsx';
-import WelcomeScreen from './components/WelcomeScreen.jsx'; // 1. Import WelcomeScreen
+import WelcomeScreen from './components/WelcomeScreen.jsx'; 
 
 function App() {
  
